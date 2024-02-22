@@ -1,0 +1,9 @@
+.hp-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__tSS {
+    flex-grow: 1 ;
+  }
+}

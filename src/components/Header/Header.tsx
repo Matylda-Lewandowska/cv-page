@@ -69,6 +69,31 @@ export const Header = () => {
           )
         }
 
+        {openedMenu && viewSize !== ViewSizeEnum.DESKTOP &&
+        (<div className='nav__menu menu'>
+          <button
+            className='menu__X-button'
+            onClick={() => setOpenedMenu(false)}>
+            X
+          </button>
+
+          {navList.map((navItem, idx) => {
+            return (
+              <div key={idx}>
+
+                <a href={navItem.link}>
+                  <div className='menu__list-item'>
+                    {navItem.title}
+                  </div>
+                </a>
+              </div>
+            );
+          })
+
+          }
+        </div>)
+        }
+
       </nav>
     </>
   );

@@ -7,8 +7,22 @@
   &__list {
     display: flex;
     gap: 1rem;
-    
+
     &-item {
     }
+  }
+
+  &__menu {
+    flex-direction: column;
+  }
+}
+
+.menu {
+  &__X-button {
+    
+  }
+
+  &__list-item {
+
   }
 }

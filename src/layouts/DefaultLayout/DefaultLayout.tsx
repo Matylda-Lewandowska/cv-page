@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react';
-import { Header } from '../components/Header/Header';
+import { Header } from '../../components/Header/Header';
+import './defaultLayout.scss';
 
 interface DefaultLayoutProps {
   children: ReactNode;
@@ -7,9 +8,9 @@ interface DefaultLayoutProps {
 
 export const DefaultLayout: React.FC<DefaultLayoutProps> = ({ children }) => {
   return (
-    <div>
+    <div className='site'>
       <Header />
-      <main>{children}</main>
+      <main className='main-content'>{children}</main>
     </div>
   );
 };
