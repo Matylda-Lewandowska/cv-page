@@ -14,11 +14,11 @@ export const Header = () => {
   const navList = [
     {
       title: 'IT',
-      link: 'http://localhost:3000/#/IT'
+      link: 'http://localhost:3000/#/it'
     },
     {
       title: 'Art',
-      link: 'http://localhost:3000/#/Art'
+      link: 'http://localhost:3000/#/art'
     },
     {
       title: 'About',
