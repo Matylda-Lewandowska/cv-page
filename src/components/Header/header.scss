@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 1.5rem;
+  
+  &__list {
+    display: flex;
+    gap: 1rem;
+
+    &-item {
+    }
+  }
+
+  &__menu {
+    flex-direction: column;
+  }
+}
+
+.menu {
+  &__X-button {
+    
+  }
+
+  &__list-item {
+
+  }
+}
