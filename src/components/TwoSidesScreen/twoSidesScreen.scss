@@ -12,22 +12,33 @@
   }
 
   &__choice {
-
   }
 }
 
 .choice {
   display: flex;
+  height: 100%;
+  width: 100%;
 
   &__first {
     padding: 0 1rem;
     background-color: lightblue;
     flex-grow: 1;
+    transition: flex-grow 0.5s ease-in-out;
+
+    &:hover {
+      flex-grow: 4;
+    }
   }
   
   &__second {
     padding: 0 1rem;
     background-color: blanchedalmond;
     flex-grow: 1;
+    transition: flex-grow 0.5s ease-in-out;
+
+    &:hover {
+      flex-grow: 4;
+    }
   }
 }
