@@ -2,19 +2,17 @@ import React from 'react';
 import { ButtonTechStackType } from '../../../types/ButtonTechStackType';
 
 type ButtonTeckStackProps = {
-  prop: ButtonTechStackType,
-  ver: 'project' | 'about'
+  techStack: ButtonTechStackType,
+  handleOnClick: (techStack: ButtonTechStackType) => void,
 }
 
-export const ButtonTeckStack: React.FC<ButtonTeckStackProps> = ({ prop }) => {
+export const ButtonTeckStack: React.FC<ButtonTeckStackProps> = ({ techStack, handleOnClick }) => {
   return (
-    <>
-      <div>ButtonTeckStack</div>
-      <div>{prop.id}</div>
-      <div>{prop.icon}</div>
-      <div>{prop.description}</div>
-      <div>{prop.link}</div>
-      <div>{prop.name}</div>
-    </>
+    <button
+      onClick={() => handleOnClick(techStack)}
+    >
+      <div>{techStack.icon}</div>
+      <div>{techStack.name}</div>
+    </button>
   );
 };
