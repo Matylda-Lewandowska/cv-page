@@ -17,7 +17,7 @@ export const Home = () => {
         Current theme: {theme}
         </div>
         <div className='hp-content__tSS'>
-          <TwoSidesScreen />
+          <TwoSidesScreen titleLeft={'IT'} titleRight={'Art'} />
         </div>
       </div>
     </DefaultLayout>
