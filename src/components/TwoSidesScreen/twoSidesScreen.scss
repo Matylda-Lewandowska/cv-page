@@ -1,3 +1,5 @@
+@import '../../assets/styles/utils/colors';
+
 .tSS {
   padding: 1rem 0;
   display: flex;
@@ -21,7 +23,6 @@
 
   &__first {
     padding: 0 1rem;
-    background-color: lightblue;
     flex-grow: 1;
     transition: flex-grow 0.5s ease-in-out;
 
@@ -32,7 +33,6 @@
   
   &__second {
     padding: 0 1rem;
-    background-color: blanchedalmond;
     flex-grow: 1;
     transition: flex-grow 0.5s ease-in-out;
 
