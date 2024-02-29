@@ -1,11 +1,11 @@
 import React from 'react';
 import { HashRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
-import { Home } from './pages/Home/Home';
+// import { Home } from './pages/Home/Home';
 import { MainProvider } from './context/MainContext';
 import { About } from './pages/About/About';
 import { ITHub } from './pages/ITHub/ITHub';
-import { ArtHub } from './pages/ArtHub/ArtHub';
+// import { ArtHub } from './pages/ArtHub/ArtHub';
 import { ITTeckStack } from './pages/ITTeckStack/ITTeckStack';
 import { ITProjects } from './pages/ITProjects/ITProjects';
 import { ITFunctions } from './pages/ITFunctions/ITFunctions';
@@ -15,7 +15,7 @@ function App () {
     <MainProvider>
       <Router>
         <Routes>
-          <Route path='home' element={<Home />} />
+          {/* <Route path='home' element={<Home />} /> */}
           <Route path='about' element={<About />} />
           <Route path='it' element={<ITHub />} >
           </Route>
@@ -26,8 +26,8 @@ function App () {
           <Route path='it/functions' element={<ITFunctions />}>
           </Route>
           <Route path='it/projects/:id' element={<ITFunctions />} />
-          <Route path='art' element={<ArtHub />} />
-          <Route path='*' element={<Navigate replace to="/home" />} />
+          {/* <Route path='art' element={<ArtHub />} /> */}
+          <Route path='*' element={<Navigate replace to="/it" />} />
 
         </Routes>
       </Router>

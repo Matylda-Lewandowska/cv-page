@@ -1,0 +1,86 @@
+@import './variables';
+
+// border styles
+.border-s-solid {
+  border-style: solid;
+}
+
+// border sides
+.border-up {
+  border-style: solid none none none
+}
+
+.border-right {
+  border-style: none solid none none
+}
+
+.border-down {
+  border-style: none none solid none
+}
+
+.border-left {
+  border-style: none none none solid
+}
+
+// border width
+.border-w1 {
+  border-width: 0.1rem;
+}
+ 
+.border-w2 {
+  border-width: 0.2rem;
+}
+ 
+.border-w3 {
+  border-width: 0.3rem;
+}
+ 
+.border-w4 {
+  border-width: 0.4rem;
+}
+ 
+.border-w5 {
+  border-width: 0.5rem;
+}
+ 
+// border-radius
+.border-rad1 {
+  border-radius: 0.1rem;
+}
+
+// box-shadow
+// blue
+.box-shadow-blue-LT {
+  box-shadow: 0 0.3rem 0.8rem 0 $color-blue-lightest;
+}
+
+.box-shadow-blue-DT {
+  box-shadow: 0 0.3rem 0.8rem 0 $color-blue-darkest;
+}
+
+// purple
+.box-shadow-purple-LT {
+  box-shadow: 0 0.3rem 0.8rem 0 $color-purple-lightest;
+}
+
+.box-shadow-purple-DT {
+  box-shadow: 0 0.3rem 0.8rem 0 $color-purple-darkest;
+}
+
+// orange
+.box-shadow-orange-LT {
+  box-shadow: 0 0.3rem 0.8rem 0 $color-orange-lightest;
+}
+
+.box-shadow-orange-DT {
+  box-shadow: 0 0.3rem 0.8rem 0 $color-orange-darkest;
+}
+
+// red
+.box-shadow-red-LT {
+  box-shadow: 0 0.3rem 0.8rem 0 $color-red-lightest;
+}
+
+.box-shadow-red-DT {
+  box-shadow: 0 0.3rem 0.8rem 0 $color-red-darkest;
+}
