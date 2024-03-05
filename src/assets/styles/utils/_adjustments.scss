@@ -84,3 +84,80 @@
 .box-shadow-red-DT {
   box-shadow: 0 0.3rem 0.8rem 0 $color-red-darkest;
 }
+
+// box-shadow--hover
+// blue
+.box-shadow-blue-LT--hover {
+  box-shadow: 0 0.3rem 0.8rem 0 $color-blue-light;
+  transition: box-shadow $duration-time3 ease-in-out;
+  
+  &:hover {
+    box-shadow: 0 0.35rem 0.85rem 0 $color-blue-lightest;
+  }
+}
+
+.box-shadow-blue-DT--hover {
+  box-shadow: 0 0.3rem 0.8rem 0 $color-blue-dark;
+  transition: box-shadow $duration-time3 ease-in-out;
+  
+  &:hover {
+    box-shadow: 0 0.35rem 0.85rem 0 $color-blue-medium;
+  }
+}
+
+// purple
+.box-shadow-purple-LT--hover {
+  box-shadow: 0 0.3rem 0.8rem 0 $color-purple-light;
+  transition: box-shadow $duration-time3 ease-in-out;
+  
+  &:hover {
+    box-shadow: 0 0.35rem 0.85rem 0 $color-purple-lightest;
+  }
+}
+
+.box-shadow-purple-DT--hover {
+  box-shadow: 0 0.3rem 0.8rem 0 $color-purple-dark;
+  transition: box-shadow $duration-time3 ease-in-out;
+  
+  &:hover {
+    box-shadow: 0 0.35rem 0.85rem 0 $color-purple-medium;
+  }
+}
+
+// orange
+.box-shadow-orange-LT--hover {
+  box-shadow: 0 0.3rem 0.8rem 0 $color-orange-light;
+  transition: box-shadow $duration-time3 ease-in-out;
+  
+  &:hover {
+    box-shadow: 0 0.35rem 0.85rem 0 $color-orange-lightest;
+  }
+}
+
+.box-shadow-orange-DT--hover {
+  box-shadow: 0 0.3rem 0.8rem 0 $color-orange-dark;
+  transition: box-shadow $duration-time3 ease-in-out;
+  
+  &:hover {
+    box-shadow: 0 0.35rem 0.85rem 0 $color-orange-medium;
+  }
+}
+
+// red
+.box-shadow-red-LT--hover {
+  box-shadow: 0 0.3rem 0.8rem 0 $color-red-light;
+  transition: box-shadow $duration-time3 ease-in-out;
+  
+  &:hover {
+    box-shadow: 0 0.35rem 0.85rem 0 $color-red-lightest;
+  }
+}
+
+.box-shadow-red-DT--hover {
+  box-shadow: 0 0.3rem 0.8rem 0 $color-red-dark;
+  transition: box-shadow $duration-time3 ease-in-out;
+  
+  &:hover {
+    box-shadow: 0 0.35rem 0.85rem 0 $color-red-medium;
+  }
+}

@@ -9,6 +9,7 @@
 // DT: black, main, light, medium, dark
 // COLORS: blue, purple, orange, red
 // ADJUSTMENTS: main, lightest, light, medium, dark, darkest
+// HOVER:
 
 
 // --- LIGHT THEME ---
@@ -454,4 +455,695 @@
 
     .border-red-darkest {
       border-color: $color-red-darkest;
+    }
+    
+    
+    // ---& HOVER &---
+
+    // - Blue -
+    // main
+    // LT
+    .bg-blue-LT-main--hover {
+      background-color: $color-blue-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-blue-light;       
+      }
+    }
+    
+    .blue-LT-main--hover {
+      color: $color-blue-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-blue-light;      
+      }
+    }
+    
+    .blue-border-LT-main--hover {
+      border-color: $color-blue-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-blue-light;
+      }
+    }
+    
+    // DT
+    .bg-blue-DT-main--hover {
+      background-color: $color-blue-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-blue-dark;        
+      }
+    }
+    
+    .blue-DT-main--hover {
+      color: $color-blue-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-blue-dark;       
+      }
+    }
+    
+    .blue-border-DT-main--hover {
+      border-color: $color-blue-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-blue-dark;
+      }
+    }
+    
+    // light
+    // LT
+    .bg-blue-LT-light--hover {
+      background-color: $color-blue-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-blue-lightest;       
+      }
+    }
+    
+    .blue-LT-light--hover {
+      color: $color-blue-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-blue-lightest;      
+      }
+    }
+    
+    .blue-border-LT-light--hover {
+      border-color: $color-blue-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-blue-lightest;
+      }
+    }
+    
+    // DT
+    .bg-blue-DT-light--hover {
+      background-color: $color-blue-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-blue-medium;        
+      }
+    }
+    
+    .blue-DT-light--hover {
+      color: $color-blue-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-blue-medium;       
+      }
+    }
+    
+    .blue-border-DT-light--hover {
+      border-color: $color-blue-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-blue-medium;
+      }
+    }
+    
+    // dark
+    // LT
+    .bg-blue-LT-dark--hover {
+      background-color: $color-blue-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-blue-medium;       
+      }
+    }
+    
+    .blue-LT-dark--hover {
+      color: $color-blue-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-blue-medium;      
+      }
+    }
+    
+    .blue-border-LT-dark--hover {
+      border-color: $color-blue-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-blue-medium;
+      }
+    }
+    
+    // DT
+    .bg-blue-DT-dark--hover {
+      background-color: $color-blue-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-blue-darkest;        
+      }
+    }
+    
+    .blue-DT-dark--hover {
+      color: $color-blue-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-blue-darkest;       
+      }
+    }
+    
+    .blue-border-DT-dark--hover {
+      border-color: $color-blue-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-blue-darkest;
+      }
+    }
+    
+    // - Purple -
+    // main
+    // LT
+    .bg-purple-LT-main--hover {
+      background-color: $color-purple-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-purple-light;       
+      }
+    }
+    
+    .purple-LT-main--hover {
+      color: $color-purple-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-purple-light;      
+      }
+    }
+    
+    .purple-border-LT-main--hover {
+      border-color: $color-purple-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-purple-light;
+      }
+    }
+    
+    // DT
+    .bg-purple-DT-main--hover {
+      background-color: $color-purple-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-purple-dark;        
+      }
+    }
+    
+    .purple-DT-main--hover {
+      color: $color-purple-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-purple-dark;       
+      }
+    }
+    
+    .purple-border-DT-main--hover {
+      border-color: $color-purple-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-purple-dark;
+      }
+    }
+    
+    // light
+    // LT
+    .bg-purple-LT-light--hover {
+      background-color: $color-purple-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-purple-lightest;       
+      }
+    }
+    
+    .purple-LT-light--hover {
+      color: $color-purple-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-purple-lightest;      
+      }
+    }
+    
+    .purple-border-LT-light--hover {
+      border-color: $color-purple-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-purple-lightest;
+      }
+    }
+    
+    // DT
+    .bg-purple-DT-light--hover {
+      background-color: $color-purple-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-purple-medium;        
+      }
+    }
+    
+    .purple-DT-light--hover {
+      color: $color-purple-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-purple-medium;       
+      }
+    }
+    
+    .purple-border-DT-light--hover {
+      border-color: $color-purple-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-purple-medium;
+      }
+    }
+    
+    // dark
+    // LT
+    .bg-purple-LT-dark--hover {
+      background-color: $color-purple-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-purple-medium;       
+      }
+    }
+    
+    .purple-LT-dark--hover {
+      color: $color-purple-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-purple-medium;      
+      }
+    }
+    
+    .purple-border-LT-dark--hover {
+      border-color: $color-purple-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-purple-medium;
+      }
+    }
+    
+    // DT
+    .bg-purple-DT-dark--hover {
+      background-color: $color-purple-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-purple-darkest;        
+      }
+    }
+    
+    .purple-DT-dark--hover {
+      color: $color-purple-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-purple-darkest;       
+      }
+    }
+    
+    .purple-border-DT-dark--hover {
+      border-color: $color-purple-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-purple-darkest;
+      }
+    }
+    
+    // - Orange -
+    // main
+    // LT
+    .bg-orange-LT-main--hover {
+      background-color: $color-orange-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-orange-light;       
+      }
+    }
+    
+    .orange-LT-main--hover {
+      color: $color-orange-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-orange-light;      
+      }
+    }
+    
+    .orange-border-LT-main--hover {
+      border-color: $color-orange-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-orange-light;
+      }
+    }
+    
+    // DT
+    .bg-orange-DT-main--hover {
+      background-color: $color-orange-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-orange-dark;        
+      }
+    }
+    
+    .orange-DT-main--hover {
+      color: $color-orange-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-orange-dark;       
+      }
+    }
+    
+    .orange-border-DT-main--hover {
+      border-color: $color-orange-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-orange-dark;
+      }
+    }
+    
+    // light
+    // LT
+    .bg-orange-LT-light--hover {
+      background-color: $color-orange-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-orange-lightest;       
+      }
+    }
+    
+    .orange-LT-light--hover {
+      color: $color-orange-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-orange-lightest;      
+      }
+    }
+    
+    .orange-border-LT-light--hover {
+      border-color: $color-orange-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-orange-lightest;
+      }
+    }
+    
+    // DT
+    .bg-orange-DT-light--hover {
+      background-color: $color-orange-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-orange-medium;        
+      }
+    }
+    
+    .orange-DT-light--hover {
+      color: $color-orange-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-orange-medium;       
+      }
+    }
+    
+    .orange-border-DT-light--hover {
+      border-color: $color-orange-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-orange-medium;
+      }
+    }
+    
+    // dark
+    // LT
+    .bg-orange-LT-dark--hover {
+      background-color: $color-orange-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-orange-medium;       
+      }
+    }
+    
+    .orange-LT-dark--hover {
+      color: $color-orange-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-orange-medium;      
+      }
+    }
+    
+    .orange-border-LT-dark--hover {
+      border-color: $color-orange-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-orange-medium;
+      }
+    }
+    
+    // DT
+    .bg-orange-DT-dark--hover {
+      background-color: $color-orange-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-orange-darkest;        
+      }
+    }
+    
+    .orange-DT-dark--hover {
+      color: $color-orange-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-orange-darkest;       
+      }
+    }
+    
+    .orange-border-DT-dark--hover {
+      border-color: $color-orange-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-orange-darkest;
+      }
+    }
+
+    // - Red -
+    // main
+    // LT
+    .bg-red-LT-main--hover {
+      background-color: $color-red-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-red-light;       
+      }
+    }
+    
+    .red-LT-main--hover {
+      color: $color-red-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-red-light;      
+      }
+    }
+    
+    .red-border-LT-main--hover {
+      border-color: $color-red-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-red-light;
+      }
+    }
+    
+    // DT
+    .bg-red-DT-main--hover {
+      background-color: $color-red-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-red-dark;        
+      }
+    }
+    
+    .red-DT-main--hover {
+      color: $color-red-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-red-dark;       
+      }
+    }
+    
+    .red-border-DT-main--hover {
+      border-color: $color-red-main;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-red-dark;
+      }
+    }
+    
+    // light
+    // LT
+    .bg-red-LT-light--hover {
+      background-color: $color-red-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-red-lightest;       
+      }
+    }
+    
+    .red-LT-light--hover {
+      color: $color-red-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-red-lightest;      
+      }
+    }
+    
+    .red-border-LT-light--hover {
+      border-color: $color-red-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-red-lightest;
+      }
+    }
+    
+    // DT
+    .bg-red-DT-light--hover {
+      background-color: $color-red-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-red-medium;        
+      }
+    }
+    
+    .red-DT-light--hover {
+      color: $color-red-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-red-medium;       
+      }
+    }
+    
+    .red-border-DT-light--hover {
+      border-color: $color-red-light;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-red-medium;
+      }
+    }
+    
+    // dark
+    // LT
+    .bg-red-LT-dark--hover {
+      background-color: $color-red-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-red-medium;       
+      }
+    }
+    
+    .red-LT-dark--hover {
+      color: $color-red-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-red-medium;      
+      }
+    }
+    
+    .red-border-LT-dark--hover {
+      border-color: $color-red-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-red-medium;
+      }
+    }
+    
+    // DT
+    .bg-red-DT-dark--hover {
+      background-color: $color-red-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        background-color: $color-red-darkest;        
+      }
+    }
+    
+    .red-DT-dark--hover {
+      color: $color-red-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        color: $color-red-darkest;       
+      }
+    }
+    
+    .red-border-DT-dark--hover {
+      border-color: $color-red-dark;
+      transition: color $duration-time3 ease-in-out;
+      
+      &:hover {
+        border-color: $color-red-darkest;
+      }
     }
