@@ -79,7 +79,7 @@ export const Header = () => {
             CLICK HERE TO CHANGE THEME
           </button>
 
-          <div> THEME: {theme}</div>
+          <div className='icon-write'> : {theme}</div>
           <div> COLOR: {color}</div>
 
           {viewSize !== ViewSizeEnum.DESKTOP &&

@@ -1,5 +1,7 @@
 @import '../../assets/styles/utils/colors';
 @import '../../assets/styles/utils/adjustments';
+@import '../../assets/styles/utils/variables';
+@import '../../assets/fonts/icons/style.css';
 
 .nav {
   display: flex;
@@ -29,3 +31,8 @@
 
   }
 }
+
+.icon-write::before {
+  content: $icon-gear;
+  font-size: 2rem;
+  }
