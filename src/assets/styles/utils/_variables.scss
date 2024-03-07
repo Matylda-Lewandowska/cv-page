@@ -14,7 +14,7 @@ $color-DT-main: #383838;
 
 $color-DT-light: #808080;
 $color-DT-medium: #616161;
-$color-DT-dark: #383838;
+$color-DT-dark: #272727;
 
 // -- COLORS IN THEME --
 // - Blue -
@@ -54,17 +54,18 @@ $color-red-dark : #800000;
 $color-red-darkest : #5E0000;
 
 // --- ICONS ---
+$icon-arrow-up: '\e903';
+$icon-arrow-left: '\e901';
+$icon-arrow-down: '\e900';
+$icon-arrow-right: '\e902';
 
-$icon-arrow-up: '2b9d';
-$icon-arrow-left: '2b9c';
-$icon-arrow-down: '2b9f';
-$icon-arrow-right: '2b9e';
-$icon-X: '\1f5d9';
-$icon-hamburger: '2b46';
-$icon-gear: '\e902';
-$icon-hearth-empty: '2764';
-$icon-hearth-filled: '1f394';
+$icon-X: '\e909';
+$icon-ok: '\e908';
+$icon-menu: '\e907';
+$icon-gear: '\e904';
 
+$icon-hearth-empty: '\e905';
+$icon-hearth-filled: '\e906';
 
 // --- DURATION --- 
 $duration-time1: 0.1s;

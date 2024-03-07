@@ -8,6 +8,7 @@
   justify-content: space-between;
   gap: 1rem;
   padding: 0.5rem 1.5rem;
+  transition: all $duration-time3 ease-in-out;
   
   &__list {
     display: flex;
@@ -31,8 +32,3 @@
 
   }
 }
-
-.icon-write::before {
-  content: $icon-gear;
-  font-size: 2rem;
-  }
