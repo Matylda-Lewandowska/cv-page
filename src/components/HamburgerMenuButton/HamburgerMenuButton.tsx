@@ -1,14 +1,18 @@
 import React, { useState } from 'react';
-import './colorOptionsButton.scss';
 import cn from 'classnames';
-import { useMainContext } from '../../context/MainContext';
 import { ThemeEnum } from '../../enums/ThemeEnum';
 import { ColorEnum } from '../../enums/ColorEnum';
-import { ColorOptionsMenu } from '../ColorOptionsMenu/ColorOptionsMenu';
+import { useMainContext } from '../../context/MainContext';
+import './hamburgerMenuButton.scss';
+import { HamburgerMenu } from '../HamburgerMenu/HamburgerMenu';
 
-export const ColorOptionsButton = () => {
+export const HamburgerMenuButton = () => {
   const { theme, color } = useMainContext();
-  const [openedColorMenu, setOpenedColorMenu] = useState<boolean>(false);
+  const [openedMenu, setOpenedMenu] = useState<boolean>(false);
+
+  const handleOpeningMenu = () => {
+    setOpenedMenu((prev) => { return (!prev); });
+  };
 
   return (
     <>
@@ -27,13 +31,15 @@ export const ColorOptionsButton = () => {
             'red-border-DT-main--hover red-DT-main--hover box-shadow-red-DT--hover': theme === ThemeEnum.DARK && color === ColorEnum.RED
           }
           )}
-          onClick={() => { setOpenedColorMenu(prev => !prev); }}
+          onClick={() => handleOpeningMenu()}
         >
-          <div className='icon-gear'></div>
+          <div className='icon-menu'></div>
         </button>
-      </div>
 
-      <ColorOptionsMenu opened={openedColorMenu} />
+      </div>
+      <div>
+        <HamburgerMenu opened={openedMenu} />
+      </div>
     </>
   );
 };

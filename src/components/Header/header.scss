@@ -9,6 +9,8 @@
   gap: 1rem;
   padding: 0.5rem 1.5rem;
   transition: all $duration-time3 ease-in-out;
+  position: relative; /* Positioning context */
+  z-index: 1;
   
   &__list {
     display: flex;
@@ -20,15 +22,5 @@
 
   &__menu {
     flex-direction: column;
-  }
-}
-
-.menu {
-  &__X-button {
-    
-  }
-
-  &__list-item {
-
   }
 }

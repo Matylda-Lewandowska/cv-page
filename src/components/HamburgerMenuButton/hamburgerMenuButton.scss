@@ -1,10 +1,9 @@
 @import '../../assets/styles/utils/variables';
 @import '../../assets/styles/utils/colors';
-@import '../../assets/styles/utils/adjustments';
 @import '../../assets/fonts/icons/style.css';
 
-.icon-gear::before {
-  content: $icon-gear;
+.icon-menu::before {
+  content: $icon-menu;
   font-size: 2rem;
 }
 

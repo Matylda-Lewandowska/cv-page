@@ -1,17 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './header.scss';
 import { useMainContext } from '../../context/MainContext';
 import { ViewSizeEnum } from '../../enums/ViewSizeEnum';
 import cn from 'classnames';
 import { ColorOptionsButton } from '../ColorOptionsButton/ColorOptionsButton';
+import { HamburgerMenuButton } from '../HamburgerMenuButton/HamburgerMenuButton';
 
 export const Header = () => {
   const { viewSize, color, theme } = useMainContext();
-  const [openedMenu, setOpenedMenu] = useState<boolean>(false);
-
-  const handleOpeningMenu = () => {
-    setOpenedMenu((prev) => { return (!prev); });
-  };
 
   const navList = [
     {
@@ -60,40 +56,10 @@ export const Header = () => {
         }
 
         {viewSize !== ViewSizeEnum.DESKTOP &&
-          (
-            <button
-              className='nav__menu-button'
-              onClick={handleOpeningMenu}>
-              HAMBURGER HERE
-            </button>
-          )
+          <div>
+            <HamburgerMenuButton />
+          </div>
         }
-
-        {openedMenu && viewSize !== ViewSizeEnum.DESKTOP &&
-        (<div className='nav__menu menu'>
-          <button
-            className='menu__X-button'
-            onClick={() => setOpenedMenu(false)}>
-            X
-          </button>
-
-          {navList.map((navItem, idx) => {
-            return (
-              <div key={idx}>
-
-                <a href={navItem.link}>
-                  <div className='menu__list-item'>
-                    {navItem.title}
-                  </div>
-                </a>
-              </div>
-            );
-          })
-
-          }
-        </div>)
-        }
-
       </nav>
     </>
   );

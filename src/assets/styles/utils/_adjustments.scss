@@ -58,6 +58,78 @@
   border-radius: 1rem;
 }
 
+// classes usefull everywhere
+.transition-all {
+  transition: all $duration-time3 ease-in-out;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.open {
+  visibility: visible;
+  opacity: 1;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.w75 {
+  width: 75%;
+}
+
+.w66 {
+  width: 75%;
+}
+
+// padding
+.padding05 {
+  padding: 0.5rem;
+}
+
+.padding1 {
+  padding: 1rem;
+}
+
+.padding15 {
+  padding: 1.5rem;
+}
+
+.padding2 {
+  padding: 2rem;
+}
+
+// padding top
+.padding-top05 {
+  padding-top: 0.5rem;
+}
+
+.padding-top1 {
+  padding-top: 1rem;
+}
+
+.padding-top15 {
+  padding-top: 1.5rem;
+}
+
+.padding-top2 {
+  padding-top: 2rem;
+}
+
+// flexbox 
+
+.flex-centered {
+  display: flex;
+  justify-content: center;
+}
+
 // box-shadow
 // blue
 .box-shadow-blue-LT {

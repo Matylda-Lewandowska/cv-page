@@ -9,10 +9,15 @@
 // DT: black, main, light, medium, dark
 // COLORS: blue, purple, orange, red
 // ADJUSTMENTS: main, lightest, light, medium, dark, darkest
-// HOVER:
+// HOVER: hover version of colors :)
 
-
+// --- ----- ----- ---
+// --- ----- ----- ---
+// --- ----- ----- ---
 // --- LIGHT THEME ---
+// --- ----- ----- ---
+// --- ----- ----- ---
+// --- ----- ----- ---
   // -white- 
   .bg-LT-white {
     background-color: $color-LT-white;
@@ -74,7 +79,13 @@
     border-color: $color-LT-dark;
   }
 
+  // --- ---------- ---
+  // --- ---------- ---
+  // --- ---------- ---
   // --- DARK THEME ---
+  // --- ---------- ---
+  // --- ---------- ---
+  // --- ---------- ---
   // -black- 
   .bg-DT-black {
     background-color: $color-DT-black;
@@ -139,9 +150,24 @@
   .border-DT-dark {
     border-color: $color-DT-dark;
   }
-
+  // -------------------
+  // -------------------
+  // -------------------
+  // -------------------
+  // -------------------
   // --- COLOR THEME ---
+  // -------------------
+  // -------------------
+  // -------------------
+  // -------------------
+  // -------------------
+  // - ---- -
+  // - ---- -
+  // - ---- -
   // - Blue -
+  // - ---- -
+  // - ---- -
+  // - ---- -
     // -main- 
     .bg-blue-main {
       background-color: $color-blue-main;
@@ -220,7 +246,13 @@
       border-color: $color-blue-darkest;
     }
 
+  // - ------ -
+  // - ------ -
+  // - ------ -
   // - Purple -
+  // - ------ -
+  // - ------ -
+  // - ------ -
     // -main- 
     .bg-purple-main {
       background-color: $color-purple-main;
@@ -299,7 +331,13 @@
       border-color: $color-purple-darkest;
     }
     
+  // - ------ -
+  // - ------ -
+  // - ------ -
   // - Orange -
+  // - ------ -
+  // - ------ -
+  // - ------ -
     // -main- 
     .bg-orange-main {
       background-color: $color-orange-main;
@@ -378,7 +416,13 @@
       border-color: $color-orange-darkest;
     }
 
-  // - Red -
+    // - --- -
+    // - --- -
+    // - --- -
+    // - Red -
+    // - --- -
+    // - --- -
+    // - --- -
     // -main- 
     .bg-red-main {
       background-color: $color-red-main;
@@ -457,10 +501,24 @@
       border-color: $color-red-darkest;
     }
     
-    
+    // ---------------
+    // ---------------
+    // ---------------
+    // ---------------
+    // ---------------
     // ---& HOVER &---
-
+    // ---------------
+    // ---------------
+    // ---------------
+    // ---------------
+    // ---------------
+    // - -- -
+    // - -- -
+    // - -- -
     // - LT - 
+    // - -- -
+    // - -- -
+    // - -- -
     // main
     .bg-LT-main--hover {
       background-color: $color-LT-main;
@@ -545,7 +603,13 @@
       }
     }
     
+    // - -- -
+    // - -- -
+    // - -- -
     // - DT -
+    // - -- -
+    // - -- -
+    // - -- -
     // main
     .bg-DT-main--hover {
       background-color: $color-DT-main;
@@ -658,7 +722,13 @@
       }
     }
 
+    // - ---- -
+    // - ---- -
+    // - ---- -
     // - Blue -
+    // - ---- -
+    // - ---- -
+    // - ---- -
     // main
     // LT
     .bg-blue-LT-main--hover {
@@ -830,7 +900,13 @@
       }
     }
     
+    // - ------ -
+    // - ------ -
+    // - ------ -
     // - Purple -
+    // - ------ -
+    // - ------ -
+    // - ------ -
     // main
     // LT
     .bg-purple-LT-main--hover {
@@ -1002,7 +1078,13 @@
       }
     }
     
+    // - ------ -
+    // - ------ -
+    // - ------ -
     // - Orange -
+    // - ------ -
+    // - ------ -
+    // - ------ -
     // main
     // LT
     .bg-orange-LT-main--hover {
@@ -1174,7 +1256,13 @@
       }
     }
 
+    // - --- -
+    // - --- -
+    // - --- -
     // - Red -
+    // - --- -
+    // - --- -
+    // - --- -
     // main
     // LT
     .bg-red-LT-main--hover {

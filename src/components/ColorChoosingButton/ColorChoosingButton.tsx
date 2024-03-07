@@ -6,10 +6,11 @@ import { useMainContext } from '../../context/MainContext';
 import cn from 'classnames';
 
 type ColorChoosingButtonProp = {
-  colored: ColorEnum | ThemeEnum
+  colored: ColorEnum | ThemeEnum,
+  disable: boolean,
 }
 
-export const ColorChoosingButton: React.FC<ColorChoosingButtonProp> = ({ colored }) => {
+export const ColorChoosingButton: React.FC<ColorChoosingButtonProp> = ({ colored, disable }) => {
   const { theme, color, setColor, setTheme } = useMainContext();
 
   const handleColorChange = () => {
@@ -41,6 +42,7 @@ export const ColorChoosingButton: React.FC<ColorChoosingButtonProp> = ({ colored
       'bg-DT-lighter--hover border-DT-dark--hover DT-light': theme === ThemeEnum.LIGHT && colored === ThemeEnum.DARK
     })}
     onClick={() => handleColorChange()}
+    disabled={disable}
     >
       {(theme === colored || color === colored) && <div className='icon-ok'></div>}</button>
   );
