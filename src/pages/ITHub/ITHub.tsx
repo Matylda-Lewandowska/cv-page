@@ -15,8 +15,8 @@ export const ITHub = () => {
         'bg-DT-black': theme === ThemeEnum.DARK
       })}>
         <div className={ cn(
-          'border-s-slid border-w2 border-radius1 padding15 w75 main-page',
-          `bg-${theme}-main border-red-main box-shadow-${color}-${theme}`, {
+          'border-s-solid transition-all border-w2 border-radius1 padding15 w80 main-page',
+          `bg-${theme}-main border-${color}-main box-shadow-${color}-${theme}`, {
 
           }
         )}>

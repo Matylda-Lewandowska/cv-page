@@ -2,6 +2,8 @@ import React from 'react';
 import './hamburgerMenu.scss';
 import { useMainContext } from '../../context/MainContext';
 import cn from 'classnames';
+import { menuData } from '../../assets/data/menuData';
+import { ButtonLinkMenu } from '../utils/ButtonLinkMenu/ButtonLinkMenu';
 
 type HamburgerMenuProp = {
   opened: boolean
@@ -19,7 +21,15 @@ export const HamburgerMenu: React.FC<HamburgerMenuProp> = ({ opened }) => {
       }
     )}
     >
-        HamburgerMenu
+      <div
+        className='menu-right__links'
+      >
+        { menuData.map((data, idx) => {
+          return (<div key={idx}>
+            <ButtonLinkMenu info={data} />
+          </div>);
+        })}
+      </div>
     </div>
   );
 };

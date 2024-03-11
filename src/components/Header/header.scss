@@ -12,9 +12,10 @@
   position: relative; /* Positioning context */
   z-index: 1;
   
-  &__list {
+  &__links {
     display: flex;
     gap: 1rem;
+    
 
     &-item {
     }

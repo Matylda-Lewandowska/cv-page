@@ -59,6 +59,10 @@
 }
 
 // classes usefull everywhere
+.no-decoration {
+  text-decoration: none;
+}
+
 .transition-all {
   transition: all $duration-time3 ease-in-out;
 }
@@ -81,12 +85,16 @@
   width: 100%;
 }
 
+.w80 {
+  width: 80%;
+}
+
 .w75 {
   width: 75%;
 }
 
 .w66 {
-  width: 75%;
+  width: 66%;
 }
 
 // padding
@@ -128,6 +136,16 @@
 .flex-centered {
   display: flex;
   justify-content: center;
+}
+
+.flex-align-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-grow {
+  display: flex;
+  flex-grow: 1;
 }
 
 // box-shadow
