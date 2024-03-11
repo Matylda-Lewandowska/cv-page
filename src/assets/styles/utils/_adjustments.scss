@@ -101,9 +101,17 @@
   width: 66%;
 }
 
+.min-w5 {
+  width: 5rem;
+}
+
 // padding
 .padding05 {
   padding: 0.5rem;
+}
+
+.padding08 {
+  padding: 0.8rem;
 }
 
 .padding1 {
@@ -142,6 +150,11 @@
   justify-content: center;
 }
 
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
 .flex-align-center {
   display: flex;
   align-items: center;
@@ -150,6 +163,26 @@
 .flex-grow {
   display: flex;
   flex-grow: 1;
+}
+
+.flex-direction-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-direction-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row-gap05 {
+  display: flex;
+  row-gap: 0.5rem;
+}
+
+.flex-column-gap05 {
+  display: flex;
+  column-gap: 0.5rem;
 }
 
 // box-shadow

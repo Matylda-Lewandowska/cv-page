@@ -10,7 +10,7 @@ export const Titles: React.FC<TitlesProps> = ({ title }) => {
 
   return (
     <h2
-      className={`${color}-main`}
+      className={`${color}-main transition-all`}
     >
       {title}
     </h2>

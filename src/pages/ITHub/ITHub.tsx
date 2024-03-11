@@ -6,6 +6,8 @@ import { useMainContext } from '../../context/MainContext';
 import { ThemeEnum } from '../../enums/ThemeEnum';
 import { Titles } from '../../components/utils/Titles/Titles';
 import { DividerLine } from '../../components/utils/DividerLine/DividerLine';
+import { ProjectCard } from '../../components/ProjectCard/ProjectCard';
+import { Links } from '../../components/utils/Links/Links';
 
 export const ITHub = () => {
   const { theme, color } = useMainContext();
@@ -22,10 +24,20 @@ export const ITHub = () => {
 
           }
         )}>
-
-          <Titles title={'My Latest Projects:'} />
+          <div
+            className='flex-direction-row flex-align-center flex-space-between'>
+            <Titles title={'My Latest Projects:'} />
+            <Links title={'More Projects'} link={'http://localhost:3000/#/it'} />
+          </div>
           <DividerLine weight={1} />
-          <Titles title={'My Latest Features:'} />
+
+          <ProjectCard props={{ title: 'here' }} />
+
+          <div
+            className='flex-direction-row flex-align-center flex-space-between'>
+            <Titles title={'My Latest Features:'} />
+            <Links title={'More Features'} link={'http://localhost:3000/#/it'} />
+          </div>
           <DividerLine weight={1} />
         </div>
       </div>

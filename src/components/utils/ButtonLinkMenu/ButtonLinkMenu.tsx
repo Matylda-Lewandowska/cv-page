@@ -19,7 +19,7 @@ export const ButtonLinkMenu: React.FC<ButtonLinkMenuProps> = ({ info }) => {
       className='no-decoration flex-centered w100 oxanium-regular-400'
     >
       <div
-        className={cn('button-options border-s-solid border-radius1 w100 flex-centered flex-align-center', {
+        className={cn('button-options border-s-solid border-radius1 padding08 min-w5 w100 flex-centered flex-align-center', {
           'bg-LT-main--hover': theme === ThemeEnum.LIGHT,
           'bg-DT-main--hover': theme === ThemeEnum.DARK,
           'blue-border-LT-main--hover blue-LT-main--hover box-shadow-blue-LT--hover': theme === ThemeEnum.LIGHT && color === ColorEnum.BLUE,

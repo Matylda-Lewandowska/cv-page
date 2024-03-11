@@ -11,7 +11,7 @@ export const DividerLine: React.FC<DividerLineProps> = ({ weight }) => {
 
   return (
     <div
-      className={cn('transition-all divider w100 flex-centered border-s-solid border-radius05',
+      className={cn('transition-all divider flex-centered border-s-solid border-radius05',
         `box-shadow-${color}-${theme} border-${color}-medium border-w${weight}`
       )}
     >

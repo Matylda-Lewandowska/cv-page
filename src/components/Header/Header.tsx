@@ -25,7 +25,7 @@ export const Header = () => {
 
         {viewSize === ViewSizeEnum.DESKTOP &&
         <div
-          className='nav__links'
+          className='nav__links flex-align-center'
         >
           {menuData.map((data, idx) => {
             return (<div key={idx}>

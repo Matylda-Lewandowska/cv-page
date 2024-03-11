@@ -1,0 +1,8 @@
+@import '../../../assets/fonts/icons/style.css';
+@import '../../../assets/styles/utils/variables';
+
+.links__arr-right::before {
+  font-family: 'icomoon' !important;
+  content: $icon-arrow-right;
+  font-size: 0.8rem;
+}
